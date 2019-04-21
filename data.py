@@ -30,7 +30,6 @@ def handle_non_numeric_data(dframes):
 dframe=handle_non_numeric_data(dframe)
 print(dframe.head())
 
-
 # finding rows with null values in all three datasets
 null_data = airq402[airq402.isnull().any(axis=1)]
 print(null_data)
